@@ -1,0 +1,30 @@
+{
+  "name": "file-encoder",
+  "version": "0.0.0",
+  "description": "saves encoded files",
+  "bin": {
+    "file-encoder": "cli.js"
+  },
+  "scripts": {
+    "start": "babel-node",
+    "test": "mocha --compilers js:babel/register",
+    "lint": "eslint *.js"
+  },
+  "author": "Renan Couto",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:renancouto/file-encoder.git"
+  },
+  "preferGlobal": true,
+  "dependencies": {
+    "babel": "^5.4.3",
+    "encoding": "^0.1.11",
+    "meow": "^3.1.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^3.1.5",
+    "eslint": "^0.21.2",
+    "mocha": "^2.2.5"
+  }
+}
