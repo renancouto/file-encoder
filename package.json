@@ -6,9 +6,9 @@
     "file-encoder": "cli.js"
   },
   "scripts": {
-    "start": "babel-node",
     "test": "mocha --compilers js:babel/register",
-    "lint": "eslint *.js"
+    "lint": "eslint test.js ./lib",
+    "build": "babel lib --out-dir ./"
   },
   "author": "Renan Couto",
   "license": "MIT",
